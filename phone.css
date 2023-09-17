@@ -1,0 +1,75 @@
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size:0.5rem;
+}
+
+
+
+/*home*/
+#home{
+    height:700px;
+}
+.heading{
+    font-size:18pt;
+}
+/*about*/
+
+#pic img{
+    width: 300px;
+    height:190px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+#intro p{
+    font-size: 12.5pt;
+}
+/*portfolio*/
+.gallery img{
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+}
+
+
+/*services*/
+.box{
+    width: 330px;
+    height:400px;
+    text-align:left;
+    font-size: 11pt;
+}
+.box .head{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.box img{
+    height: 60px;
+    width: 60px;
+    padding: 10px;}
+
+/*contact*/
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 22.2%;
+    text-align:center;
+    text-align: center;
+}
+.headings{
+    font-size: 20pt;
+}
+footer{
+    font-size:8pt;
+}
+.icon{
+    height: 15pt;
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel = "icon" href ="./reference/svg/browser-edge.svg" type = "image/x-icon" />
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" media="screen and (min-width:801px) and (max-width:1105px)"   href="./mediumscreen.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)"    href="./table.css">
+        <link rel="stylesheet"  media="screen and (max-width:530px)" href="./phone.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li ><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="main">
+                <h1 class="headings" style="color: whitesmoke;">I AM <br>VIGNESH</h1>
+                <button class="btn">
+                    Hire Me
+                </button>
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="./reference/newpic.jpg" alt="My pic" />
+                <div id="intro">
+                    <h2>VIGNESH</h2>
+                    <p>👋ECE student diving headfirst into the world of software and front-end craftsmanship. <br>
+                        💡Passionate about translating ideas into elegant code and creating visually appealing user interfaces. <br/>
+                        🚀Proficient in HTML, CSS, and JavaScript, I'm on a mission to bring seamless digital experiences to life.If you're seeking a dedicated front-end enthusiast with an eye for detail, let's connect and collaborate on building the next generation of user-friendly applications!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h1 class="headings" style="color: whitesmoke;">PORTFOLIO</h1>
+            <div class="gallery">
+                <img src="./reference/parking space.jpg" alt="parking project" />
+                <img src="./reference/Digital-Door-Lock-using-Arduino-Circuit-Diagram.jpg" alt=" automatic locking system" />
+                <img src="./reference/timericne555.jpg" alt="blinking circuit" />
+                <img src="./reference/mondrian composition.png" alt="mondrian composition" />
+                <img src="./reference/verilog.png" alt="verilog project" />
+                <img src="./reference/Automatic-Street-Light-Controller-Circuit-transformed.jpeg" alt="ldr project" />
+            </div>
+        </section>
+        
+        <section id="services">
+            <h1 class="headings">SERVICES</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="./reference/svg/filetype-html.svg" alt="" />
+                    <h3 class="head">Personalized HTML Web Development</h3>
+                    <p>Crafting bespoke, responsive websites tailored to your vision is my expertise.Using HTML5, I ensure your site is optimized for search engines and a delightful user experience.Let's collaborate to make your online presence shine.</p>
+                </div>
+                <div class="box">
+                    <img src="./reference/svg/filetype-css.svg" alt="" />
+                    <h3 class="head">Personalized CSS Styling Services</h3>
+                    <p>As an individual, I specialize in creating visually appealing websites through customized CSS. From layout design to color schemes, I tailor CSS to enhance your website's look and feel. Let's collaborate to give your website the style it deserves.</p>
+                </div>
+                <div class="box">
+                    <img src="./reference/svg/filetype-js.svg" alt="" />
+                    <h3 class="head">Tailored JavaScript Functionality</h3>
+                    <p>Bringing interactivity and dynamic features to your website is my forte. Using JavaScript, I personalize your website to engage users and enhance their experience. Let's work together to add life to your web presence.</p>
+                </div>
+                <div class="box">
+                    <img src="./reference/svg/bootstrap.svg" alt="" />
+                    <h3 class="head">Customized Bootstrap Development</h3>
+                    <p>Leveraging Bootstrap, I create sleek, responsive websites with a modern design aesthetic. Tailoring Bootstrap's powerful framework to your needs, I ensure your site looks great on all devices. Let's collaborate to elevate your website's design and functionality.</p>
+                </div>
+                <div class="box">
+                    <img src="./reference/svg/filetype-py.svg" alt="" />
+                    <h3 class="head">Personalized Python Development</h3>
+                    <p>As an individual, I excel in Python programming, crafting efficient, scalable, and tailored solutions. From web development to automation, I leverage Python to meet your unique requirements. Let's collaborate to turn your ideas into functional reality with Python.</p>
+                </div>
+                <div class="box">
+                    <img src="./reference/svg/tools.svg" alt="" />
+                    <h3 class="head">Personalized Electronics Expertise</h3>
+                    <p> Drawing on my deep understanding of electronics, I offer tailored solutions for circuit design, hardware development, and troubleshooting. Whether you need prototyping, PCB design, or system optimization, my expertise ensures reliable and efficient electronic solutions. Let's collaborate to bring your electronic projects to fruition.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="headings" style="color: whitesmoke;">CONTACT ME</h1>
+            <form action="" class="form">
+                <input type="text"  name="name" class="input"  placeholder="Enter your Name">
+                <input type="text"  name="email" class="input"  placeholder="Enter your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+        </section>
+        <footer>
+            <p>&copy;Copyrights Reserved</p><br />
+            <div class="social">
+                <a href="https://www.linkedin.com/in/vigneshs3/"><img class="icon" src="./reference/svg-update/linkedin.svg" alt="icon" ></a>
+                <a href="mailto:s.vigneshkrishnan@gmail.com"><img  class="icon" src="./reference/svg-update/mail.svg" alt="icon" ></a>
+                <a href="tel:7305106346"><img class="icon"  src="./reference/svg-update/phone.svg" alt="icon"></a>
+                <a href=""><img  class="icon"  src="./reference/svg-update/github.svg" alt="icon" ></a>
+            </div>
+        </footer>
+    </body>
+
+</html>
